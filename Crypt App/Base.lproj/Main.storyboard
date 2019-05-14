@@ -94,7 +94,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bR8-ZX-pAe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1dt-I8-gYw"/>
                             <constraint firstItem="bR8-ZX-pAe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Q4-9u-RgK"/>
@@ -155,7 +155,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="9o6-bK-brd" firstAttribute="trailing" secondItem="0e0-fa-cXM" secondAttribute="trailing" constant="16" id="JBq-kf-zRe"/>
                             <constraint firstItem="0e0-fa-cXM" firstAttribute="centerY" secondItem="okA-rG-w3t" secondAttribute="centerY" id="Phj-FT-Xuk"/>
@@ -163,13 +163,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9o6-bK-brd"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Results" id="Lqm-NP-f0R">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="dJ6-Lg-oQr">
-                            <connections>
-                                <segue destination="S3Q-KX-JhZ" kind="unwind" unwindAction="unwindToCryptoMainViewWithSegue:" id="EdF-LY-rZs"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Results" id="Lqm-NP-f0R"/>
                     <connections>
                         <outlet property="resultsAnswerLabel1" destination="xEH-9z-Wb5" id="hK7-5n-dPC"/>
                         <outlet property="resultsAnswerLabel2" destination="F8c-f7-MOQ" id="ruD-i3-d0g"/>
@@ -177,7 +171,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SXM-2v-Cjw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="S3Q-KX-JhZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1746.4000000000001" y="134.48275862068968"/>
         </scene>
